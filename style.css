@@ -576,10 +576,14 @@ main,
     margin-inline: auto;
 }
 
-.unit__description {
+.unit__contents {
     display: grid;
     gap: var(--size-x-small);
     padding: 1em;
+}
+
+.unit__description {
+   margin-block: 1em;
 }
 
 /* Contact Section */
@@ -594,7 +598,8 @@ main,
     z-index: -1;
 }
 
-.contact__address, .contact__social {
+.contact__address,
+.contact__social {
     backdrop-filter: blur(var(--size-2-base));
     padding: 1em;
     border-radius: var(--size-small-base);
