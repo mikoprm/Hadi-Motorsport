@@ -605,6 +605,10 @@ main,
     border-radius: var(--size-small-base);
 }
 
+.contact__address {
+    display: grid;
+}
+
 .contact__media {
     margin-inline: auto;
     row-gap: var(--size-small-base);
